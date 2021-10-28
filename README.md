@@ -1,4 +1,4 @@
-# A Compressed Deep Learning Model to detect Cardiac Arrhythmias
+# Compressed Deep Learning Models to detect Cardiac Arrhythmias
 
 ECG interpretation by deep learning models has proven to offer an important alternative in the clinical ECG workflow. However, these deep learning models are both computational and memory intensive, making them difficult to deploy on wearable devices because of their limitations on computational resources.
 A small model with appropriate accuracy will be more feasible to implement in a wearable device. We propose several models with state-of-the-art accuracy and F1 scores. The proposed models were evaluated on the Incentia11K dataset. Our CNN4 baseline model with only 11,833 parameters achieved an 0.9 F1-score higher than the average F1-score of a cardiologist (0.78). The model predicts cardiac arrhythmias, normal rhythms, or noise signals from direct ECG signals without pre-processing.
@@ -31,4 +31,4 @@ Tan, Shawn, et al. "Icentia11k: An unsupervised representation learning dataset 
 https://github.com/shawntan/icentia-ecg
 
 <a id="3">[3]</a> 
-Towards atrial fibrillation detection in wearable devices usingdeep learning. (pending publishing)
+Towards atrial fibrillation detection in wearable devices using deep learning. (pending publishing)
